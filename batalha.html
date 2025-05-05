@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Naval</title>
+    <link rel="stylesheet" href="batalha.css">
+</head>
+<body>
+    <h1>Batalha Naval</h1>
+    <div id="tabuleiros">
+        <div id="tabuleiro1" class="tabuleiro">
+            <h2>Jogador 1</h2>
+            <div class="tabuleiro-grid" id="tabuleiro1Grid"></div>
+        </div>
+        <div id="tabuleiro2" class="tabuleiro">
+            <h2>Jogador 2</h2>
+            <div class="tabuleiro-grid" id="tabuleiro2Grid"></div>
+        </div>
+    </div>
+    <div id="info">
+        <p id="turno">Vez do Jogador 1</p>
+        <p id="status"></p>
+        <input type="text" id="inputJogada" placeholder="Exemplo: A1" />
+        <button id="fazerJogadaBtn">Fazer Jogada</button>
+    </div>
+    <script src="batalha.js"></script>
+</body>
+</html>
